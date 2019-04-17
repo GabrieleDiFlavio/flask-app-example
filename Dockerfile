@@ -1,6 +1,10 @@
 FROM gliderlabs/alpine:3.2
 
-RUN apk-install python
+
+
+RUN apt-get -y install python3 python3-dev python3-pip build-essential libgmp-dev libmpfr-dev libmpc-dev
+
+RUN pip3 install gmpy2
 
 COPY src/requirements.txt .
 RUN apk --update add --virtual build-dependencies py-pip \
