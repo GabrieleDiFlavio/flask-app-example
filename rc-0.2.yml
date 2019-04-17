@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: wathever
-        image: agonzalezro/k8s-py-example:0.2
+        image: GabrieleDiFlavio/flask-app-example:0.2
         ports:
         - containerPort: 5000
