@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: whatever
-        image: agonzalezro/k8s-py-example:0.1
+        image: GabrieleDiFlavio/flask-app-example:0.1
         ports:
         - containerPort: 5000
