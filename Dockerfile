@@ -1,6 +1,4 @@
-FROM gliderlabs/alpine:3.2
-
-
+FROM python:3
 
 RUN apk-install python3 python3-dev python3-pip build-essential libgmp-dev libmpfr-dev libmpc-dev
 
